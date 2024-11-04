@@ -16,16 +16,18 @@
             ? " py-4 bg-slate-950 border-violet-950"
             : " py-6 bg-transparent border-transparent")}
 >
-    <h1 class="font-medium">
-        <div class="relative shadow-2xl grid place-items-center">
-            <img
-                src={"images/profile.jpg"}
-                alt="Zetane Engine"
-                class="object-cover z-[2] max-h-[100px]"
-            />
-        </div>
+<h1 class="font-medium flex flex-col items-center">
+    <div class="relative shadow-2xl grid place-items-center">
+        <img
+            src="/images/profile.jpg"
+            alt="Profile Photo"
+            class="object-cover z-[2] max-h-[100px] rounded-full"
+        />
+    </div>
+    <div class="text-center mt-2">
         <b class="font-bold poppins">Jake</b> <span class="">Viñas</span>
-    </h1>
+    </div>
+</h1>
     <div class="sm:flex items-center gap-4 hidden">
         {#each tabs as tab, index}
             <a
