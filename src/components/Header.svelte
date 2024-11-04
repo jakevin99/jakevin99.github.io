@@ -17,6 +17,13 @@
             : " py-6 bg-transparent border-transparent")}
 >
     <h1 class="font-medium">
+        <div class="relative shadow-2xl grid place-items-center">
+            <img
+                src={"images/profile.jpg"}
+                alt="Zetane Engine"
+                class="object-cover z-[2] max-h-[100px]"
+            />
+        </div>
         <b class="font-bold poppins">Jake</b> <span class="">Viñas</span>
     </h1>
     <div class="sm:flex items-center gap-4 hidden">
